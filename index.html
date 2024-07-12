@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/783673405b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="pngtree-emotic-vector-icon-with-heart-shape-and-glasses-png-image_6833704.png" alt="Image with class" class="logopic">
+        <h1 class="logo">ITgurl</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li class="ctme"><a href="#">Contact</a></li>
+       
+        </ul>
+        <div class="hamburger" onclick="toggleNav()">☰</div>
+    </nav>
+    <header>
+
+        <div class="thepic">
+            <img src="1000014586-removebg-preview.png" alt="Image with class" class="mypic">
+        </div>
+
+        <div class="header-content">
+            <h2>Halloo!</h2>
+            <h1>I'M BIANCA</h1>
+            <h4>A WEB DESIGNER</h2>
+            <h3>I'm a student web designer who is passionate about creating
+                unique and</br> appealing websites. I love coming up with fresh
+                ideas and turning them</br> into beautiful designs that both you
+                and your 34 will enjoy.</h3>
+            <button class="ctn" onclick="downloadCV" >Download CV</button>
+            <button class="ctct" onclick="downloadCV" >Contact Me</button>
+        </div> 
+    </header>
+
+    <!--start of page 2-->
+    <section>
+        <div class="About">
+            <h1>who is <span>BIANCA?</span></h1>
+            <img src="1000033804-removebg-preview.png" alt="Image with class" class="meagain">
+            <img src="educ.png" alt="Image with class" class="educ">
+            <img src="question.png" alt="Image with class" class="question">
+            
+        </br>
+            <h2>Meet Bianca Sophia S. Roxas, a passionate web developer student from</br>the Philippines. She loves creating websites that are not only visually</br>appealing but also provide a great user experience. Sophia is skilled in</br>HTML, CSS, and JavaScript, and she also has knowledge of databases</br>like MySQL and MongoDB. </h2>
+        </div>
+        <div class="logoli">
+            <a href="https://twitter.com/login">
+                <img src="twittericon.png" alt="Twitter Icon" class="twt">
+            </a>
+            <a href="https://accounts.google.com/servicelogin?hl=en-gb">
+                <img src="gmailicon.png" alt="gmail Icon" class="gm" >
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="fbicon.png" alt="Fb Icon" class="fb">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="igicon.png" alt="Instagram Icon" class="ig">
+            </a>
+        </div>
+        
+        <div class="baba">       
+            <button class="ctn" onclick="downloadCV" >Download CV</button>
+            <button class="ctct">Contact Me</button>
+        </div>
+    </section>
+    <!--end of page 2-->
+
+    <!--start of page 3-->
+    <section class="projects">
+        <div id="drag">
+            <img src="mywork.png" alt="mywork" class="mywork">
+           
+            <img src="resume.png" alt="resume" class="res">
+            <a href="https://bianxxs.github.io/resoponsive-design/">
+                <img src="view.png" alt="view" class="viewres">
+            </a>
+            <img src="my.png" alt="my" class="my">
+            
+            <img src="calcu.png" alt="CALCU" class="calc">
+            <a href="https://bianxxs.github.io/IPT101-CALCU/">
+                <img src="view.png" alt="view" class="viewcalc">
+            </a>
+            <img src="mycalc.png" alt="my" class="mycalc">
+            
+            <img src="fontgen.png" alt="FONTGEN" class="font">
+            <a href="#">
+                <img src="view.png" alt="view" class="viewfont">
+            </a>
+            <img src="myfont.png" alt="my" class="myfont">
+            
+            <img src="website.png" alt="WEBSITE" class="web">
+            <a href="#">
+                <img src="view.png" alt="view" class="viewweb">
+            </a>
+            <img src="myweb.png" alt="WEBSITE" class="myweb">
+
+            <h1>WANT TO SEE MORE?</h1>
+            <a href="https://github.com/Bianxxs?tab=repositories">
+                <img src="see.png" alt="WEBSITE" class="see">
+            </a>
+            
+        </div>
+    </section>
+    <section class="fourth">
+        <form class="form">
+            <input type="text" name="name" placeholder="Name" autocomplete="off" required>
+            <input type="text" name="email" placeholder="Email" autocomplete="off" required>
+            <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="cons">
+            <br>
+            <h1>CONTACT ME HERE</h1>
+            <br>
+            <br>
+            <i class="fas fa-phone "></i> <span>09215970932</span>
+            <i class="fas fa-envelope "></i> <span>roxasbiancasophia1112@gmail.com</span>
+            <i class="fas fa-location-dot "></i> <span>Lucena, Philippines</span>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Website Portfolio. All rights reserved.</p>
+        <p>Developed By: Bianca Sophia S. Roxas</p>
+    </footer>
+
+    
+    <script>
+               
+        // Function to toggle navigation menu visibility
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            const body = document.body;
+            navLinks.classList.toggle('show-nav');
+            body.classList.toggle('show-nav');
+        }
+    
+        // Function to close navigation menu when clicking outside of it
+        function closeNavOnOutsideClick(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const body = document.body;
+            
+            // Check if the clicked element is not a part of the navigation menu
+            if (!navLinks.contains(event.target) && !event.target.classList.contains('hamburger')) {
+                navLinks.classList.remove('show-nav');
+                body.classList.remove('show-nav');
+            }
+        }
+    
+        // Event listener to close navigation menu on outside click
+        document.addEventListener('click', closeNavOnOutsideClick);
+        
+    </script>
+
+    
+    
+    
+        
+</body>
+</html>

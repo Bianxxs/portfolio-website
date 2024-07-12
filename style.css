@@ -1,0 +1,1342 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+* {
+    /*transition: all 1s ease;*/
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+    
+header {
+    width:100%;
+    background-image: url('firstpic_page-0001.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    font-family:  Source Sans Pro, sans-serif;
+}
+
+
+/*navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 5px;
+    color: whitesmoke;
+    
+}
+
+.nav-links{
+    animation: slideLeft 1s ease forwards;
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    font-size: 2.5vmin;
+    margin: 0 30px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a {
+    font-size: 2.5vmin;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 5;
+    border-radius: 50px;
+    box-sizing: border-box;  
+}
+
+.logo{
+    animation: slideLeft 1s ease forwards;
+    font-size: 3.5vmin ;
+    display: flex;
+    margin-right:110px;
+    margin-top: -10px;
+}
+
+.logopic{
+    animation: slideLeft 1s ease forwards;
+    height: 50px;
+    width: 50px;
+    margin-top: 9px;
+
+}
+ 
+      
+
+.mypic{
+    animation: slideLeft 1s ease forwards;
+    height: 730px;
+    width: 550px;
+    margin-left: -10px;
+    margin-bottom: -1px;
+    border-radius: 800px;
+
+}
+
+@keyframes slideLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideRight{
+    0%{
+        opacity:0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+
+
+.ctn{
+    height: 50px;
+    width: 30vh;
+    border-radius: 100px;
+    color: whitesmoke;
+    background: rgb(96, 60, 96);
+    margin-left:50px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    animation: slideLeft 1s ease forwards;
+}
+
+
+.ctct{
+    animation: slideLeft 1s ease forwards;
+    height: 50px;
+    width: 30vh;
+    border-radius: 100px;
+    color: whitesmoke;
+    margin-left:50px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    background: rgb(53, 2, 59);
+   
+}
+
+.thepic{   
+    margin-bottom: -3px;
+    margin-right: 80px;
+}
+
+
+.header-content{
+    margin-bottom: 60px;
+    margin-right: 70px;
+}
+
+  /* effects ng hover */
+button.active {
+    background: rgb(88, 59, 6);
+}
+  
+button:hover {
+    background: rgb(129, 102, 52);
+    color: rgb(252, 249, 249);
+    padding: 14.2px 32px;
+}
+
+button:hover {
+    background: rgb(88, 59, 6);
+    padding: 15px 40px;
+    color: rgb(236, 229, 242);
+}
+button:hover > button:not(:hover) {
+        background: none;
+}
+
+.header-content h1{
+    font-size: 7.5vmin;
+    color: peachpuff;
+    line-height: 1.5;
+    font-family:Fira Sans;
+    animation: slideLeft 1s ease forwards;
+
+}
+
+.header-content h2{
+    letter-spacing: 2px;
+    font-size: 4.5vmin;
+    color:rgb(247, 170, 26) ;
+    line-height: 2;
+    animation: slideLeft 1s ease forwards;
+    font-family:Fira Sans;
+}
+
+.header-content h4{
+    font-size: 4.5vmin;
+    animation: slideLeft 1s ease forwards;
+    color:rgb(247, 170, 26) ;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family: Fira Sans;
+}
+
+.header-content h3{
+    font-family: Fira Sans;
+    line-height: 2 ;
+    color: whitesmoke;
+    font-size: 2.5vmin;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    animation: slideLeft 1s ease forwards;
+    margin-bottom: 30px;
+}
+
+
+.logo{
+    animation: slideLeft 1s ease forwards;
+    font-size: 3.6vmin ;
+    display: flex;
+    margin-left:-700px;
+    margin-top: 16px;
+    letter-spacing: 2px;;
+}
+
+.logopic{
+    animation: slideLeft 1s ease forwards;
+    margin-left: 40px;
+    margin-right:-30px;
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+
+}
+
+
+/*start of page 2*/
+section {
+    animation: slideLeft 1s ease forwards;
+    width:100%;
+    margin:0px auto;
+    background-image: url('secondpic_page.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 120vh;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.About h1{
+    margin-left: 90px;
+    margin-top: 40px;
+    font-size: 7.5vmin;
+    color:peachpuff;
+    line-height:1.5;
+    
+}
+
+.About h1 span{
+    color: rgb(247, 170, 26);
+    
+}
+.About h2{
+    margin-top: 60px;
+    color: whitesmoke;
+    margin-left: 90px;
+    line-height: 3 ;
+    font-size: 3vmin;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+} 
+
+.logoli {
+    margin-top: 50px;
+    justify-content: flex-start;  
+    display: flex; 
+    position: absolute;
+    left:0;
+}
+
+.twt{
+    margin-left: 65px;
+    height: 70px;
+    width: 70px;
+    margin-top: 500px;
+  
+}
+
+.gm{
+    margin-left: 5px;
+    height: 33px;
+    width: 39px;
+    margin-top: 520px;
+}
+
+.ig{
+    margin-left: 5px;
+    height: 63px;
+    width: 63px;
+    margin-top: 503px;
+}
+
+.fb{
+    margin-left: 20px;
+    height: 39px;
+    width: 39px;
+    margin-top: 515px;
+}
+.baba{
+    position: absolute; 
+    left: 0;
+    align-self: flex-end;
+    margin-bottom: 100px;
+    width:fit-content; 
+    
+}
+
+.meagain{
+    position: absolute; 
+    right: -33px;
+    bottom: 1px;
+    height:530px;
+}
+
+.educ{
+    position: absolute; 
+    right: 30px;
+    bottom: 500px;
+    height: 190px;
+
+}
+.question{
+    position: absolute; 
+    right: 40px;
+    bottom: 350px;
+    height: 40px;
+
+}
+
+.baba .ctn{
+    width: 30vh;
+    border-radius: 100px;
+    color: whitesmoke;
+    background: rgb(96, 60, 96);
+    margin-left:90px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+}
+
+
+.baba .ctct{
+    margin-top: -200px;
+    width: 30vh;
+    border-radius: 100px;
+    color: whitesmoke;
+    margin-left:70px;
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    background: rgb(53, 2, 59);
+   
+}
+
+
+
+/*page 3 start*/
+.projects{
+    
+    display: flex;
+}
+.drag{
+    animation: slideLeft 1s ease forwards;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.mywork{
+    width: 18vh;
+    height: 120vh;    
+}
+
+/*resume*/
+.res{
+    margin-left: 100px;
+    width: 55vh;
+    height: 30.7vh;
+    margin-bottom: 500px;
+}
+.my{
+    height: 7.9vh;
+    width:49.2vh ;
+    margin-left: -415px;
+    margin-bottom: 450px;
+    margin-top:20px;
+}
+.viewres{
+    height: 38.6vh;
+    margin-left: -46px;
+    margin-bottom: 450px;
+}
+
+/*calcu*/
+.calc{
+    margin-left: 290px;
+    width: 55vh;
+    height: 30.7vh;
+    margin-bottom: 500px;
+}
+.viewcalc{
+    height: 38.6vh;
+    margin-left: -46px;
+    margin-bottom: 450px;
+}
+.mycalc{
+    height: 7.9vh;
+    width:49.3vh ;
+    margin-left: -417px;
+    margin-bottom: 450px;
+    margin-top:20px;
+}
+
+/*fontGen*/
+.font{
+    margin-bottom: 500px;
+    margin-left: 220px;
+    width: 49vh;
+    height: 30.7vh;
+    margin-top: -600px;
+   
+}
+.viewfont{
+    margin-top: -430px;
+    height: 38.6vh;
+    margin-left: -5px;
+    margin-bottom: 450px;
+}
+.myfont{
+    height: 7.9vh;
+    width:48.9vh ;
+    margin-left: -414px;
+    margin-bottom: 455px;
+    margin-top:-800px;
+}
+
+/*web*/
+.web{
+    margin-bottom: 500px;
+    margin-left: 287px;
+    width: 49vh;
+    height: 30.5vh;
+    margin-top: -600px;
+   
+}
+.viewweb{
+    margin-top: -430px;
+    height: 38.6vh;
+    margin-left: -5px;
+    margin-bottom: 450px;
+}
+.myweb{
+    height: 7.9vh;
+    width:49vh ;
+    margin-left: -414px;
+    margin-bottom: 450px;
+    margin-top:-300px;
+}
+
+/*see more*/
+.projects h1{
+    color: whitesmoke;
+    font-size: 4vmin;
+    line-height: 1.5;
+    margin-left: 220px;
+    margin-top:-450px;
+}
+
+.see{
+    width: 20vh;
+    border-radius: 30px;
+    border-style:solid;
+    border-color: rgb(107, 106, 103);
+    margin-bottom: 400px;
+    margin-top:-45px;
+    margin-left: 550px;
+
+}
+
+/*4th*/
+.fourth {
+    
+
+    width: 100%;
+    background-image: url('deskwalpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 100px;
+
+}
+
+.form {
+    background: transparent;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-right: 50px; 
+    margin-top:50px; 
+    margin-bottom: -130px; 
+}
+
+input, textarea, button {
+    background: transparent;
+    width: 700px;
+    height: 40px;
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 3px solid whitesmoke; 
+    font-size: 16px; 
+}
+
+textarea {
+    height: 180px; 
+}
+
+button[type="submit"] {
+    background-color: #3f3f68; 
+    color: white;
+    border: none;
+    cursor: pointer; 
+    font-size: 18px; 
+    
+}
+
+
+.cons {
+    border: solid 1px;
+    color: #fff; 
+    width: 450px;
+    height: 260px;
+    margin-left: 80px;
+    margin-bottom: -120px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(156, 35, 156, 0.1); 
+}
+
+.cons i {
+    color: #f2efea; 
+    margin-bottom: 10px; 
+    display:inline-block; 
+}
+
+.cons span {
+    color: #fff; 
+    text-transform: lowercase; 
+    font-weight: bold;
+    display: block; 
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2c032c; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%;
+    bottom: 0; 
+}
+
+.hamburger{
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-image: url('firstpic_page-responsive.jpg'); /* Change background image for tablet */
+    }
+
+    .header-content {
+        margin-right: 0; /* Remove right margin */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align text */
+    }
+
+    .header-content h1 {
+        font-size: 7vmin; /* Adjust font size */
+        margin-left: -100px; /* Remove left margin */
+        margin-top: 100px; /* Adjust top margin */
+        margin-bottom: 10px;
+    }
+
+    .header-content h2 {
+        font-size: 5vmin; /* Adjust font size */
+        margin-left: -100px; /* Remove left margin */
+        margin-bottom: -100px; /* Adjust bottom margin */
+      
+    }
+
+    .header-content h4 {
+        margin-bottom: 10px;
+        font-size: 3vmin; /* Adjust font size */
+        margin-left: -100px; /* Remove left margin */
+        margin-top: 10px; /* Adjust top margin */
+    }
+
+    .header-content h3 {
+        font-size: 2.5vmin; /* Adjust font size */
+        margin-left:-300px; /* Remove left margin */
+        margin-right:100px; /* Remove right margin */
+        margin-top: 30px; /* Adjust top margin */
+        margin-bottom: -30px; /* Adjust bottom margin */
+    }
+
+    .ctn{
+        margin-bottom: -20px;
+        font-size: 2.5vmin; /* Adjust font size */
+        padding: 10px 30px; /* Adjust padding */
+        margin-left: -300px; /* Adjust left margin */
+        margin-right: -50px;
+        margin-top: 50px;
+        white-space: nowrap;
+         /* Adjust right margin */
+    }
+    
+    .ctct {
+        font-size: 2.5vmin; /* Adjust font size */
+        padding: 10px 30px; /* Adjust padding */
+        margin-left: 90px; /* Adjust left margin */
+        margin-right: 50px;
+        margin-top: 50px;
+        margin-bottom:-20px;
+         /* Adjust right margin */
+    }
+
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 150px;
+        background-color: #333; /* Dark background color */
+        padding-top: 60px;
+        z-index: 2;
+        transition: transform 0.3s ease;
+        transform: translateX(100%);
+    }
+
+    .nav-links ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-links li a {
+        display: block;
+        text-decoration: none;
+        color: #fff; /* White text color */
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .show-nav .nav-links {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        color: #fff; /* White hamburger icon */
+        margin-right: 10px;
+        margin-top: 5px;
+        display: block;
+        font-size: 30px;
+        cursor: pointer; /* Add cursor pointer */
+    }
+
+
+
+    .mypic {
+        height: 320px; /* Adjust height */
+        width: 250px; /* Adjust width */
+        margin-left: 0; /* Remove left margin */
+        margin-bottom: 200px; /* Adjust bottom margin */
+    }
+
+    .thepic {
+        margin-bottom: 0; /* Remove bottom margin */
+        margin-right: 50px; /* Remove right margin */
+    }
+    .logo{
+        margin-right: -180px;
+    }
+    
+    /*2nd page*/
+    section {
+        background-image: url('secondpic_pge.responsive.jpg');
+    
+        
+    }
+    .About h1{
+        margin-left: 55px;
+        margin-top: 40px;
+        font-size: 6.5vmin;
+       
+        
+    }
+    .About h2{
+        margin-top: 40px;
+        color: whitesmoke;
+        margin-left: 60px;
+        line-height: 3 ;
+    } 
+    .meagain{
+        position: absolute; 
+        right: -16px;
+        bottom: 5px;
+        height:300px;
+    }
+    .educ{
+        position: absolute; 
+        right: 40px;
+        bottom: 530px;
+        height: 120px;
+    }
+    .question{
+            position: absolute; 
+           
+            bottom: 250px;
+          
+        
+        
+    }
+    .baba{   
+        margin-bottom: 100px;  
+    }
+    .logoli {
+        margin-top: -80px;
+        margin-left: -23px;
+    }
+    .projects{
+        display: flex;
+    }
+    .drag{
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .mywork{
+        height: 120vh;    
+        margin-bottom: 10px;
+    }
+    
+    /*resume*/
+    .res{
+        margin-left: 60px;
+        width: 38vh;
+        height: 25.7vh;
+        margin-bottom: 450px;
+    }
+    .my{
+        height: 5.9vh;
+        width:37.9vh ;
+        margin-left: -248px;
+        margin-bottom: 418px;
+        margin-top:20px;
+    }
+    .viewres{
+        height: 31.7vh;
+        margin-left: -6px;
+        margin-bottom: 417px;
+    }
+    
+    /*calcu*/
+    .calc{
+        margin-left: 90px; /* Center horizontally */
+        width: 90%; /* Adjust width as needed */
+        max-width: 600px; /* Limit maximum width */
+        margin-bottom: 450px; /* Bottom margin for spacing */
+        margin-top: -10px; /* Move section up by 50px */
+        width: 38vh;
+        height: 25.7vh;
+      
+    }
+    .viewcalc{
+        height: 31.7vh;
+        margin-left: -6px;
+        margin-bottom: 417px;
+    }
+    .mycalc{
+        height: 5.9vh;
+        width:37.9vh ;
+        margin-left: -248px;
+        margin-bottom: 418px;
+        margin-top:20px;
+    }
+    
+    /*fontGen*/
+    .font{
+        margin-top: -400px;
+        margin-left: 165px;
+        width: 38vh;
+        height: 25.7vh;
+        margin-bottom: 680px;
+       
+    }
+    .viewfont{
+        height: 31.7vh;
+        margin-left: -6px;
+        margin-bottom: 647px;
+        
+    }
+    .myfont{
+        margin-left: -248px; /* Adjust left margin as needed */
+        margin-bottom: 648px;
+        margin-top: -600px;
+        height: 5.9vh;
+        width:37.9vh ;
+    }
+    .web {
+        margin-top: -400px; /* Move the section up by 250 pixels from its normal position */
+        margin-right: auto; /* Center the section horizontally */
+        margin-bottom: 680px; /* Add 500 pixels of space at the bottom */
+        margin-left: 100px; /* Shift the section 100 pixels to the right */
+        width: 38vh; /* Set the width */
+        height: 25.7vh; /* Set the height */
+       
+    }
+    
+    .viewweb {
+        height: 31.7vh;
+        margin-left: -6px;
+        margin-bottom: 647px; /* Adjust bottom margin */
+    }
+    
+    .myweb {
+        height: 5.9vh;
+        width:37.9vh ;
+        margin-left: -248px;
+        margin-bottom: 648px;
+        margin-top:-220px; /* Adjust bottom margin */
+    }
+    
+    
+    /*see more*/
+    .projects h1{
+        color: whitesmoke;
+        font-size: 4vmin;
+        line-height: 1.5;
+        margin-left: 165px;
+        margin-top:-600px;
+    }
+    
+    .see{
+        width: 20vh;
+        border-radius: 30px;
+        border-style:solid;
+        border-color: rgb(107, 106, 103);
+        margin-bottom: 490px;
+        margin-top:-39px;
+        margin-left: 490px;
+    
+    }
+    .fourth {
+        width: 100%;
+        background-image: url('firstpage.crdownload.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center; 
+        padding-left: 100px;
+    
+    }
+    
+    .form {
+        background: transparent;
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-right: 30px; 
+        margin-top:-100px; 
+        margin-bottom: -130px; 
+    }
+    
+    input, textarea, button {
+        background: transparent;
+        width: 300px;
+        height: 40px;
+        margin-bottom: 20px; 
+        padding: 10px; 
+        border-radius: 5px; 
+        border: 3px solid whitesmoke; 
+        font-size: 16px; 
+    }
+    
+    textarea {
+        height: 180px; 
+    }
+    
+    button[type="submit"] {
+        background-color: #3f3f68; 
+        color: white;
+        border: none;
+        cursor: pointer; 
+        font-size: 18px; 
+        
+    }
+    
+    .cons {
+        font-size: 12px;
+        width: 250px;
+        height: 220px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(156, 35, 156, 0.1); 
+    }
+    
+    .cons i {
+        color: #f2efea; 
+        margin-bottom: 10px; 
+        display:inline-block; 
+    }
+    
+    .cons span {
+        color: #fff; 
+        text-transform: lowercase; 
+        font-weight: bold;
+        display: block; 
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        width: 118.5vh;
+        background-image: url('firstpic_page-responsive.jpg'); /* Change background image for tablet */
+    }
+
+    .header-content {
+        margin-right: 0; /* Remove right margin */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align text */
+    }
+
+    .header-content h1 {
+        font-size: 7vmin; /* Adjust font size */
+        margin-left: -190px; /* Remove left margin */
+        margin-top: 110px; /* Adjust top margin */
+        margin-bottom: 10px;
+    }
+
+    .header-content h2 {
+        font-size: 5vmin; /* Adjust font size */
+        margin-left: -190px; /* Remove left margin */
+        margin-bottom: -100px; /* Adjust bottom margin */
+      
+    }
+
+    .header-content h4 {
+        margin-bottom: 70px;
+        font-size: 3vmin; /* Adjust font size */
+        margin-left: -190px; /* Remove left margin */
+        margin-top: 10px; /* Adjust top margin */
+    }
+
+    .header-content h3 {
+        font-size: 2.5vmin; /* Adjust font size */
+        margin-left:-300px; /* Remove left margin */
+        margin-right:80px; /* Remove right margin */
+        margin-top: 30px; /* Adjust top margin */
+        margin-bottom: 10px; /* Adjust bottom margin */
+    }
+
+    .ctn{
+        margin-bottom: -20px;
+        font-size: 2.5vmin; /* Adjust font size */
+        padding: 10px 30px; /* Adjust padding */
+        margin-left: -300px; /* Adjust left margin */
+        margin-right: -50px;
+        margin-top: 50px;
+        white-space: nowrap;
+         /* Adjust right margin */
+    }
+    
+    .ctct {
+        font-size: 2.5vmin; /* Adjust font size */
+        padding: 10px 30px; /* Adjust padding */
+        margin-left: 90px; /* Adjust left margin */
+        margin-right: 50px;
+        margin-top: 50px;
+        margin-bottom:-20px;
+         /* Adjust right margin */
+    }
+
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 150px;
+        background-color: #333; /* Dark background color */
+        padding-top: 60px;
+        z-index: 2;
+        transition: transform 0.3s ease;
+        transform: translateX(100%);
+    }
+
+    .nav-links ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-links li a {
+        display: block;
+        text-decoration: none;
+        color: #fff; /* White text color */
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .show-nav .nav-links {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        color: #fff; /* White hamburger icon */
+        margin-right: -190px;
+        margin-top: 5px;
+        display: block;
+        font-size: 30px;
+        cursor: pointer; /* Add cursor pointer */
+    }
+
+
+    
+
+    .mypic {
+        height: 320px; /* Adjust height */
+        width: 250px; /* Adjust width */
+        margin-left: 0; /* Remove left margin */
+        margin-bottom: 240px; /* Adjust bottom margin */
+    }
+
+    .thepic {
+        margin-bottom: 0; /* Remove bottom margin */
+        margin-right: 50px; /* Remove right margin */
+    }
+    .logo{
+        margin-right: -305px;
+    }
+    
+    /*2nd page*/
+    section {
+        width: 118.5vh;
+        background-image: url('secondpic_pge.responsive.jpg');
+    
+        
+    }
+    
+    .meagain{
+        position: absolute; 
+        
+        bottom: 5px;
+        height:330px;
+    }
+    .educ{
+        position: absolute; 
+      
+        bottom: 500px;
+        height: 120px;
+    
+    }
+
+    .About h1{
+        margin-left: 55px;
+        margin-top: 80px;
+        font-size: 6.5vmin;
+       
+        
+    }
+    .question{
+        position: absolute; 
+       
+        bottom: 250px;
+        height: 40px;
+    
+    }
+    .baba {
+        display: flex;
+        justify-content: center; /* Center align horizontally */
+        align-items: flex-end; /* Align items to the bottom */
+        margin-bottom: 30px; /* Bottom margin for the entire .baba section */
+    }
+    
+    .baba .ctn {
+        margin-left: 60px; /* Adjust left margin for spacing */
+        margin-top: 60px; /* Adjust top margin */
+        margin-bottom: 60px; /* Adjust bottom margin */
+    }
+    
+    .baba .ctct {
+        margin-left: 10px; /* Adjust left margin for spacing */
+        margin-top: 10px; /* Adjust top margin */
+        margin-bottom: 60px; /* Adjust bottom margin */
+    }
+    
+    
+    .logoli {
+        margin-top: -80px;
+        margin-left: -23px;
+    }
+
+    /*3rd*/
+    .projects{
+        display: flex;
+    }
+    .drag{
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .mywork{
+        height: 120vh;    
+        margin-bottom: 10px;
+    }
+    
+    /*resume*/
+    .res{
+        margin-left: 10px;
+        width: 36vh;
+        height: 23.7vh;
+        margin-bottom: 470px;
+    }
+    .my{
+        height: 5.9vh;
+        width:35.9vh ;
+        margin-left: -235px;
+        margin-bottom: 438px;
+        margin-top:20px;
+    }
+    .viewres{
+        height: 30vh;
+        margin-left: -6px;
+        margin-bottom: 437px;
+    }
+    
+    /*calcu*/
+    .calc{
+        margin-left: 90px; /* Center horizontally */
+        max-width: 600px; /* Limit maximum width */
+        margin-bottom: 470px; /* Bottom margin for spacing */
+        margin-top: -10px; /* Move section up by 50px */
+        width: 36vh;
+        height: 23.7vh;
+      
+    }
+    .viewcalc{
+        height: 30vh;
+        margin-left: -6px;
+        margin-bottom: 437px;
+    }
+    .mycalc{
+        height: 5.9vh;
+        width:35.9vh ;
+        margin-left: -235px;
+        margin-bottom: 440px;
+        margin-top:20px;
+    }
+    /*fontGen*/
+    .font{
+        margin-top: -400px;
+        margin-left: 110px;
+        width: 36vh;
+        height: 23.7vh;
+        margin-bottom: 680px;
+       
+    }
+    .viewfont{
+        height: 29.8vh;
+        margin-left: -6px;
+        margin-bottom: 647px;
+        
+    }
+    .myfont{
+        margin-left: -235px; /* Adjust left margin as needed */
+        margin-bottom: 648px;
+        margin-top: -600px;
+        height: 5.9vh;
+        width:35.9vh ;
+    }
+    
+    /*web*/
+    .web {
+        margin-top: -400px; /* Move the section up by 250 pixels from its normal position */
+        margin-right: auto; /* Center the section horizontally */
+        margin-bottom: 680px; /* Add 500 pixels of space at the bottom */
+        margin-left: 95px; /* Shift the section 100 pixels to the right */
+        width: 36vh;
+        height: 23.7vh;
+       
+    }
+    
+    .viewweb {
+        height: 31.7vh;
+        margin-left: -6px;
+        margin-bottom: 647px; /* Adjust bottom margin */
+    }
+    
+    .myweb {
+        height: 5.9vh;
+        width:35.9vh ;
+        margin-left: -240px;
+        margin-bottom: 648px;
+        margin-top:-220px; /* Adjust bottom margin */
+    }
+    
+    
+    /*see more*/
+    .projects h1{
+        color: whitesmoke;
+        font-size: 4vmin;
+        line-height: 1.5;
+        margin-left: 165px;
+        margin-top:-600px;
+    }
+    
+    .see{
+        width: 20vh;
+        border-radius: 30px;
+        border-style:solid;
+        border-color: rgb(107, 106, 103);
+        margin-bottom: 490px;
+        margin-top:-39px;
+        margin-left: 490px;
+    
+    }
+
+    .fourth {
+        width: 153.5%;
+        background-image: url('firstpage.crdownload.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 120vh;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center; 
+        padding-left: 100px;
+    
+    }
+    
+    .form {
+        background: transparent;
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-top: 20px;
+        margin-bottom: -260px; 
+    }
+    
+    input, textarea, button {
+        background: transparent;
+        width: 450px;
+        height: 40px;
+        margin-bottom: 20px; 
+        padding: 10px; 
+        border-radius: 5px; 
+        border: 3px solid whitesmoke; 
+        font-size: 16px; 
+    }
+    
+    textarea {
+        height: 130px; 
+    }
+    
+    button[type="submit"] {
+        background-color: #3f3f68; 
+        color: white;
+        border: none;
+        cursor: pointer; 
+        font-size: 18px; 
+        
+    }
+    
+    .cons {
+        font-size: 12px;
+        width: 250px;
+        height: 220px;
+        margin-left: -360px;
+        margin-bottom: 350px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(156, 35, 156, 0.1); 
+    }
+    
+    .cons i {
+        color: #f2efea; 
+        margin-bottom: 10px; 
+        display:inline-block; 
+    }
+    
+    .cons span {
+        color: #fff; 
+        text-transform: lowercase; 
+        font-weight: bold;
+        display: block; 
+        margin-bottom: 10px;
+    }
+    footer {
+        background-color: #2c032c; 
+        color: #fff; 
+        text-align: center; 
+        padding: 20px 0; 
+        width: 153.5%;
+    }
+
+}
+
